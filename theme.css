@@ -135,11 +135,35 @@ html, body{
     margin: 4px 2px;
     cursor: pointer;
     margin-top: 3em;
-    margin-bottom: 3em;
+    
     width: 100%;
     border-radius: 25px;
     font-weight: bold;
 
+  }
+
+  .button2 {
+    background-color: #2b9e2f;
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 3em;
+    
+    width: 100%;
+    border-radius: 25px;
+    font-weight: bold;
+
+  }
+
+.button1:hover {
+    background-color: #035506;
+    color: white;
   }
 
 .footer {
