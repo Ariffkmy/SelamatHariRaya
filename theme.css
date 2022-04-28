@@ -16,15 +16,24 @@ html, body{
     margin: 0;
     padding-top: 60vh;
 }
+
+.wish{
+height: auto;
+width: auto;
+position: relative;
+
+
+}
 .header{
-    background-image: url(./img/hero.jpg);
+    background-image: url(./img/hero.png);
     background-repeat: no-repeat;
     background-position: 50% 60%;
     background-attachment: scroll;
-    background-size: cover;
-    height: 40vh;
+    background-size:cover;
+    height: 50vh;
     margin: 0;
-    padding-top: 60vh;
+    padding-top: 40vh;
+    position: relative;
 }
 
 .text{
@@ -72,6 +81,7 @@ html, body{
     max-width: auto;
     padding: 1em 1em;
     background-image: url("bg.png");
+    
   
     /* Set a specific height */
     min-height: 100px; 
@@ -100,7 +110,15 @@ html, body{
     opacity: .8;
 }
 .resort-image{
-    width: 80%
+    width: 80%;
+   
+      
+}
+
+.wish-image{
+    width: 80%;
+   
+    top: 10px;   
 }
 
 .corak{
