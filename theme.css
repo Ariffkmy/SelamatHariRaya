@@ -77,14 +77,14 @@ position: relative;
     background: rgba(20,20,20,.9);
 }
 .section{
-    margin: 0 auto;
+    margin:auto;
     max-width: auto;
     padding: 1em 1em;
     background-image: url("bg.png");
     
   
     /* Set a specific height */
-    min-height: 100px; 
+    min-height: auto; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
