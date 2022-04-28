@@ -9,12 +9,12 @@ html, body{
     text-align: center;
 }
 
-.raya{
-    width:600px;
-    margin:10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    height:400px;
-    background-color: #E0D8D6;
+
+.header2{
+    
+    height: 10vh;
+    margin: 0;
+    padding-top: 60vh;
 }
 .header{
     background-image: url(./img/hero.jpg);
@@ -69,6 +69,17 @@ html, body{
     margin: 0 auto;
     max-width: 600px;
     padding: 1em 1em;
+    background-image: url("bg.png");
+  
+    /* Set a specific height */
+    min-height: 100px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .sub-heading{
     font-family: 'Caveat', cursive;
@@ -89,13 +100,18 @@ html, body{
 .resort-image{
     width: 80%
 }
+
+.corak{
+    width: 35%;
+    height: auto;
+}
 .raya{
     border-radius: 25px;
     width:100%;
     margin:0px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    height:500px;
-    background-color: #ffffff;
+    height:630px;
+    background-color: rgb(255, 250, 234);
     margin-top: 3em;
     padding-top: 4em;
     font-style: italic;
@@ -173,6 +189,112 @@ html, body{
     color: rgb(0, 0, 0);
     
   }
+
+overlay {
+    z-index: 9;
+    margin: 30px;
+    padding-top: 10em;
+    
+  }
+
+lagu{
+    padding-top: 10px;
+    margin-top: 100px;
+    z-index: 9;
+    margin: 30px;
+}
+
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: rgb(241, 241, 241);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+   
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("bg.jpg");
+  
+    /* Set a specific height */
+    min-height: 100px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+ 
+
 
 @media only screen and (max-width: 600px) {
     .heading {
